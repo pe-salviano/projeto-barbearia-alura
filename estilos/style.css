@@ -10,8 +10,46 @@ body{
     
 }
 
+header{
 
-img{
+    background: #bbbbbb;
+}
+
+.caixa-cabecalho{
+    position: relative;
+    margin: 0 auto;
+    font-size: 30px;
+    width: 940px;
+}
+
+nav li{
+    display:inline;
+    list-style: none;
+    margin: 0 0 0 15px;    
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 30px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;    
+}
+
+
+nav a:hover{
+    color: rgb(188, 162, 12);
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+.banner{
     width: 100%;
     
     
@@ -19,6 +57,7 @@ img{
 .principal{
     background-color: #cccccc;
     padding: 30px;
+    
     
 }
 
