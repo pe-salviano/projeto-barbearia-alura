@@ -40,16 +40,7 @@ em > strong{
 
 }
 
-footer{
-    bottom: 0;
-    position:fixed ;
-    width: 100%;
-    background-color: black;
-    color: white;
-    padding: 20px;
-    text-align: center;
-    
-}
+
 h2{
     margin: 0px 15px;
     text-align: center;
@@ -73,5 +64,18 @@ div.beneficios{
 .imgbeneficios{
 
     width: 50%;
+    margin-bottom: 100px;
 
+}
+
+footer{
+    bottom: 0;
+    position:fixed ;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    
 }
