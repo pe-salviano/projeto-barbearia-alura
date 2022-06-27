@@ -1,21 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-
 body{
     font-family: Arial, Helvetica, sans-serif;
-    
 }
 
 header{
-
     background: #bbbbbb;
 }
 
-.caixa-cabecalho{
+.caixa{
     position: relative;
     margin: 0 auto;
     font-size: 30px;
@@ -49,72 +40,95 @@ nav a:hover{
     border-radius: 5px;
     text-decoration: underline;
 }
-.banner{
-    width: 100%;
-    
-    
-}
-.principal{
-    background-color: #cccccc;
-    padding: 30px;
-    
-    
+
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0px ;
 }
 
-h1{
-    text-align: center;
-    margin: 30px 10px 10px 10px;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 50px;
-    
-}
-
-p{
-    text-align: center;   
-    margin: 10px 10px 10px 10px;
-}
-
-em > strong{
-    color: red;
-
-}
-
-
-h2{
-    margin: 0px 15px;
-    text-align: center;
-
-}
-
-ul{
+.produtos li {
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-    font-style: italic;
-}
-
-div.beneficios{
-
-    background-color: white;
-    padding: 30px;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
     
 }
-.imgbeneficios{
 
-    width: 50%;
-    margin-bottom: 100px;
+.produtos li:hover{
+    border-color: rgb(188, 162, 12);
+}
 
+.produtos li:active{
+
+    border-color: blue;
+}
+
+.produtos li:hover h2{
+    font-size: 35px;
+}
+
+
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produtos-descricao{
+    font-size: 18px;
+
+    
+}
+
+.produto-preco{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
 
 footer{
-    bottom: 0;
-    position:fixed ;
-    width: 100%;
-    background-color: black;
-    color: white;
-    padding: 20px;
     text-align: center;
-    font-size: 16px;
-    
+    background: url(../imagens/imagens.produtos/bg.jpg);
+    padding: 40px;
+   
 }
+
+.copyright{
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+main{
+    width: 940px;
+    margin: 0 auto;   
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block; 
+    font-size: 20px;
+    margin:  10px 0;
+}
+
+.input-padrao{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkboox{
+
+    margin: 20px 0;
+}
+
