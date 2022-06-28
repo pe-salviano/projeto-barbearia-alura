@@ -3,8 +3,6 @@
     margin: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-
 body{
     font-family: Arial, Helvetica, sans-serif;
     
@@ -13,9 +11,10 @@ body{
 header{
 
     background: #bbbbbb;
+
 }
 
-.caixa-cabecalho{
+.caixa{
     position: relative;
     margin: 0 auto;
     font-size: 30px;
@@ -25,7 +24,8 @@ header{
 nav li{
     display:inline;
     list-style: none;
-    margin: 0 0 0 15px;    
+    margin: 0 0 0 15px;  
+      
 }
 
 nav{
@@ -51,21 +51,12 @@ nav a:hover{
 }
 .banner{
     width: 100%;
-    
-    
+       
 }
 .principal{
     background-color: #cccccc;
     padding: 30px;
     
-    
-}
-
-h1{
-    text-align: center;
-    margin: 30px 10px 10px 10px;
-    font-family: 'Shadows Into Light', cursive;
-    font-size: 50px;
     
 }
 
